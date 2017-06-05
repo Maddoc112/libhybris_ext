@@ -339,7 +339,7 @@ static void ulp_request_phone_context_callback(UlpPhoneContextRequest *req)
       settings.is_gps_enabled = 1;
       settings.is_agps_enabled = 1;
       settings.is_network_position_available = 1;
-      settings.is_wifi_setting_enabled = 1;
+      
       settings.is_battery_charging = 0;
       settings.is_enh_location_services_enabled = 1;
       UlpPhoneContext->ulp_phone_context_settings_update(&settings);
