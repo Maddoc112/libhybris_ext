@@ -11,8 +11,8 @@ bin_PROGRAMS = \
 	test_vibrator \
 	test_media \
 	test_recorder \
-	test_gps \
-	test_wifi
+	test_gps 
+	
 
 if HAS_ANDROID_4_2_0
 bin_PROGRAMS += test_hwcomposer
@@ -209,10 +209,10 @@ test_vibrator_LDADD = \
 	$(top_builddir)/common/libhybris-common.la \
 	$(top_builddir)/vibrator/libvibrator.la
 
-test_wifi_SOURCES = test_wifi.c
-test_wifi_CFLAGS = \
-	-I$(top_srcdir)/include \
-	$(ANDROID_HEADERS_CFLAGS)
-test_wifi_LDADD = \
-	$(top_builddir)/wifi/libwifi.la
+
+
+	
+	
+
+	
 
