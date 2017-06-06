@@ -1,5 +1,4 @@
-bin_PROGRAMS = \
-	
+bin_PROGRAMS = \	
 	test_egl \
 	test_egl_configs \
 	test_glesv2 \
